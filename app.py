@@ -9,7 +9,7 @@ Original file is located at
 # ALS Collaborative Filtering
 """
 
-!pip install pyspark
+# !pip install pyspark
 from pyspark.sql import SparkSession, Row
 from pyspark.sql.functions import col, expr, explode
 from pyspark.ml.recommendation import ALS, ALSModel
